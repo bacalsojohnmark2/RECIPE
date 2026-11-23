@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Scaling Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator-card">
+      <div class="header">
+        <h1>Recipe Scaling Calculator</h1>
+      </div>
+
+      <div class="recipe-container">
+        <div class="recipe-image-section">
+          <div class="food-img">🥞</div>
+            <h2 id="recipe-title">Pancakes</h2>
+            <span class="base-servings-text">Base: 2 servings</span>
+        </div>
+
+        <div class="recipe-details-section">
+          <div class="servings-control">
+            <span class="servings-label">Servings</span>
+            <div class="serving-buttons">
+              <button class="serving-btn active" data-servings="2">2</button>
+              <button class="serving-btn" data-servings="4">4</button>
+              <button class="serving-btn" data-servings="8">8</button>
+            </div>
+          </div>
+          <div class="ingredients-list" id="ingredients-container"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
